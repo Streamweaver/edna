@@ -23,6 +23,7 @@ func init() {
 	// ( order dependent )
 	// revel.OnAppStart(InitDB)
 	// revel.OnAppStart(FillCache)
+	// revel.OnAppStart(LoadSystems)
 }
 
 // TODO turn this into revel.HeaderFilter
